@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Autenticación","Usuario se auténtica con una cuenta activa","SUCCESS","2022-09-26T10:08:18.8062913-05:00[America/Mexico_City]","0.0","18.19"
+"Autenticación","Usuario se auténtica con una cuenta inválida","SUCCESS","2022-09-26T10:08:36.9996671-05:00[America/Mexico_City]","0.0","4.55"
+"Autenticación","Usuario trata autenticarse con información incompleta","SUCCESS","2022-09-26T10:08:41.5518534-05:00[America/Mexico_City]","0.0","6.54"
