@@ -1,20 +1,15 @@
 package sura.stepDefinitions;
 
 import io.cucumber.java.es.Cuando;
-import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
+import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.WebDriver;
-import sura.interactions.ListOfProducts;
-import sura.tasks.LogIn;
-import sura.tasks.NavigateTo;
 import sura.tasks.Purchase;
-import sura.tasks.SearchForProducts;
+import sura.ui.CartPage;
 import sura.ui.ProductPage;
-import sura.utils.Tools;
 
 public class PurchaseSteps {
 
@@ -27,8 +22,20 @@ public class PurchaseSteps {
     public void haceClickEnElBotonDelArticulo(Actor actor,Integer number) {
         actor.attemptsTo( Purchase.item(number) );
     }
+
+    @Cuando("{actor} hace click en el boton del carrito")
+    public void haceClickEnElBotonDelCarrito(Actor actor) {
+        actor.attemptsTo(Click.on(ProductPage.CART_BADGE));
+    }
+
     @Entonces("ve {string} items en el icono del carrito de compras")
     public void veQueElIconoDelCarritoMuestraProductosEnLaBolsa(String totalItemsOnCart) {
         Ensure.that(ProductPage.CART_BADGE).hasText(totalItemsOnCart);
+    }
+
+
+    @Entonces("pasa a la pagina {string} de listado de compras")
+    public void pasaALaPaginaDeListadoDeDompras(String term) {
+        Ensure.that(CartPage.HEADING_TEXT_TITLE).hasText(term);
     }
 }

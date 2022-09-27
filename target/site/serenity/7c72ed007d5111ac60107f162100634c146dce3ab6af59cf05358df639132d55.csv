@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Buscar Productos","Ordenar Productos Alfabeticamente de la A a la Z","SUCCESS","2022-09-26T10:08:55.9424063-05:00[America/Mexico_City]","0.0","3.0"
-"Buscar Productos","Ordenar Productos Alfabeticamente de la Z a la A","SUCCESS","2022-09-26T10:08:59.0772518-05:00[America/Mexico_City]","0.0","2.9"
-"Buscar Productos","Ordenar Productos por costos de menor a mayor valor","SUCCESS","2022-09-26T10:09:02.1064638-05:00[America/Mexico_City]","0.0","2.92"
-"Buscar Productos","Ordenar Productos por costos de mayor a menor","SUCCESS","2022-09-26T10:09:05.1527436-05:00[America/Mexico_City]","0.0","2.98"

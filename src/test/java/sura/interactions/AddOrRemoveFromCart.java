@@ -5,8 +5,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.actions.Click;
-
-import java.util.List;
+import sura.utils.ProductItem;
 
 public class AddOrRemoveFromCart implements Interaction {
 
@@ -20,6 +19,6 @@ public class AddOrRemoveFromCart implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo( Click.on(ListOfProducts.itemButton(actor, itemNumber)));
+        actor.attemptsTo( Click.on(ProductItem.buttonElement(actor, itemNumber)));
     }
 }

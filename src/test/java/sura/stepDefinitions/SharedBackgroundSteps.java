@@ -9,7 +9,7 @@ import sura.tasks.LogIn;
 import sura.tasks.NavigateTo;
 import sura.utils.Tools;
 
-public class SharedBackgroundSteps extends PageObject {
+public class SharedBackgroundSteps {
 
     @Dado("que {actor} ingresa con una cuenta valida como la de {string} a Swaglabs")
     public void ingresaConUnaCuentaValidaASwaglabs(Actor actor, String userType) {
