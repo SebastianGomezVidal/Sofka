@@ -8,18 +8,18 @@ import net.thucydides.core.pages.PageObject;
 public class LoginPage extends PageObject {
 
     public static final Target USERNAME = Target
-            .the("UsernameTextBox")
+            .the("usernameTextBox")
             .locatedBy("[data-test ='username']");
 
     public static final Target PASSWORD = Target
-            .the("PasswordTextBox")
+            .the("passwordTextBox")
             .locatedBy("[data-test='password']");
 
     public static final Target LOGIN_BTN = Target
-            .the("LogIn Button")
+            .the("logIn Button")
             .locatedBy("[data-test='login-button']");
 
     public static final Target ERROR_MESSAGE = Target
-            .the("User is locked out")
+            .the("LogIn Button")
             .locatedBy("[data-test='error']");
 }

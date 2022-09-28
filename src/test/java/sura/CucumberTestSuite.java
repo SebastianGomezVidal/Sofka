@@ -7,7 +7,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.*;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        plugin = {"pretty"},
+        plugin = {"pretty", "html:target/cucumber-reports.html"},
         features = {"src/test/resources/features"},
         glue = {"sura"},
         snippets = CAMELCASE

@@ -27,7 +27,4 @@ public class LogIn implements Task {
                 Enter.theValue(user.getClave()).into(LoginPage.PASSWORD),
                 Click.on(LoginPage.LOGIN_BTN));
     }
-
-
-
 }

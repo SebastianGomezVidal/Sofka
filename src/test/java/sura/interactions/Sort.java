@@ -7,10 +7,9 @@ import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import sura.enumerators.Option;
-import sura.ui.ProductPage;
+import sura.ui.CataloguePage;
 
 public class Sort implements Interaction {
-
     private Option option;
 
     Sort(Option option) {
@@ -24,8 +23,8 @@ public class Sort implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Scroll.to(ProductPage.SORT_MENU),
-                SelectFromOptions.byValue(option.getOption()).from(ProductPage.SORT_MENU)
+                Scroll.to(CataloguePage.SORT_MENU),
+                SelectFromOptions.byValue(option.getOption()).from(CataloguePage.SORT_MENU)
         );
     }
 }
