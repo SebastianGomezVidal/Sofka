@@ -12,7 +12,7 @@ Requisito: Checkout Productos
   Esquema del escenario: Se ingresa correctamente la información personal
     Y Ana ingresa "Juan", "Gomez" y "1112"
     Y Ana hace click en el boton de continuar
-    Entonces es redirigida a la pagina de "OVERVIEW"
+    Entonces Ana es redirigida a la pagina de "OVERVIEW"
 
 
 

@@ -8,7 +8,7 @@ import sura.interactions.ClickFrom;
 
 public class SelectFromCatalogue implements Task {
 
-    private Integer itemNumber;
+    private final Integer itemNumber;
 
     SelectFromCatalogue(Integer itemNumber) { this.itemNumber = itemNumber; }
 

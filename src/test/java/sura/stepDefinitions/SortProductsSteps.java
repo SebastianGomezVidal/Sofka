@@ -11,6 +11,7 @@ import sura.ui.CataloguePage;
 import sura.utils.Enumerator;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static sura.ui.CataloguePage.ITEM_TITLE;
 
 public class SortProductsSteps {
 
@@ -20,9 +21,9 @@ public class SortProductsSteps {
                 OrganizeProducts.orderedBy(Enumerator.getDropDownValue(opcion))
         );
     }
-    @Entonces("ve que el {string} articulo contiene la palabra {string}")
-    public void anaVeQueElPrimerArticuloContieneLaPalabraJacket(String itemNumber, String term) {
-        Ensure.that(CataloguePage.ITEM_TITLE.of(itemNumber)).hasText(term);
+    @Entonces("{actor} nota que el {string} articulo contiene la palabra {string}")
+    public void notaQueElPrimerArticuloContieneLaPalabra(Actor actor, String itemNumber, String term) {
+        actor.attemptsTo(Ensure.that(ITEM_TITLE.of(itemNumber)).text().contains(term));
     }
 
 }

@@ -7,17 +7,17 @@ Requisito: Adicionar/remover productos del catálogo a la lista de compras
 
   Escenario: Añadir articulos al carrito de compras
     Cuando Ana hace click en el boton del 1 articulo
-    Y Ana hace click en el boton del 3 articulo
-    Y Ana hace click en el boton del 5 articulo
+    Cuando Ana hace click en el boton del 2 articulo
+    Cuando Ana hace click en el boton del 3 articulo
     Entonces Ana ve "3" items en el icono del carrito de compras
 
   Escenario: Quitar articulos al carrito de compras
-    Cuando Ana hace click en el boton del 2 articulo
-    Y Ana hace click en el boton del 4 articulo
-    Y Ana hace click en el boton del 2 articulo
-    Entonces ella ve "1" items en el icono del carrito de compras
+    Cuando Ana hace click en el boton del 6 articulo
+    Cuando Ana hace click en el boton del 5 articulo
+    Cuando Ana hace click en el boton del 5 articulo
+    Entonces Ana ve "1" items en el icono del carrito de compras
 
   Escenario: Añadir articulos al carrito de compras y pasar al lista de compras
-    Cuando Ana hace click en el boton del 1 articulo
+    Cuando Ana hace click en el boton del 4 articulo
     Y Ana hace click en el boton del carrito
-    Entonces pasa a la pagina "JUAN" de listado de compras
+    Entonces Ana pasa a la pagina "CART" de listado de compras

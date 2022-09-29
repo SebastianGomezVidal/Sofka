@@ -26,12 +26,12 @@ public class LoginSteps {
     }
     @Entonces("{actor} debe ser redirigido a la pagina de {string}")
     public void elDebeSerRedirigidoALaPaginaDe(Actor actor, String term) {
-        Ensure.that(HeaderPage.HEADING_TEXT_TITLE).hasText(term);
+        actor.attemptsTo(Ensure.that(HeaderPage.HEADING_TEXT_TITLE).text().contains(term));
     }
 
     @Entonces("a {actor} se le deniega el ingreso mostrando el mensaje {string}")
     public void laAplicacionDenegaIngresoMostrandoMensaje(Actor actor, String term) {
-        Ensure.that(LoginPage.ERROR_MESSAGE).hasText(term);
+        actor.attemptsTo(Ensure.that(LoginPage.ERROR_MESSAGE).text().contains(term));
     }
 
 }

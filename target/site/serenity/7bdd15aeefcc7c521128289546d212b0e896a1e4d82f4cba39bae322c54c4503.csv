@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Confirmar lista de productos seleccionados","Articulo es visible en lista de productos","SUCCESS","2022-09-29T12:31:55.0236435-05:00[America/Mexico_City]","0.0","3.56"
+"Confirmar lista de productos seleccionados","Seguir comprando productos","SUCCESS","2022-09-29T12:31:58.7547323-05:00[America/Mexico_City]","0.0","3.75"
+"Confirmar lista de productos seleccionados","Seguir hacia checkout","SUCCESS","2022-09-29T12:32:02.6531247-05:00[America/Mexico_City]","0.0","3.61"

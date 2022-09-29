@@ -5,16 +5,13 @@ import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.ensure.Ensure;
-import net.thucydides.core.annotations.Managed;
-import org.openqa.selenium.WebDriver;
+import sura.interactions.ClickFrom;
 import sura.tasks.SelectFromCatalogue;
-import sura.ui.CataloguePage;
-import sura.ui.HeaderPage;
 import sura.ui.ProductListPage;
-import sura.utils.ListedItems;
 
 
-import static sura.ui.ProductListPage.PRODUCTS_LISTED;
+import static sura.ui.HeaderPage.*;
+import static sura.ui.ProductListPage.ALL_PRODUCTS_LISTED;
 
 public class ListOfProductsSteps {
 
@@ -24,12 +21,12 @@ public class ListOfProductsSteps {
     }
     @Cuando("{actor} hace click en el icono de compras")
     public void haceClickEnElIconoDeCompras(Actor actor) {
-        actor.attemptsTo(Click.on(HeaderPage.CART_BADGE));
+        actor.attemptsTo(Click.on(CART_BADGE));
     }
 
-    @Cuando("{actor} remueve el {int} articulo de la lista")
+    @Cuando("{actor} remueve el {int} articulo de la lista de compras")
     public void HaceClickEnElBotonRemover(Actor actor, int removerPosicion) {
-        actor.attemptsTo(Click.on(PRODUCTS_LISTED.of(String.valueOf(removerPosicion+2))));
+        actor.attemptsTo(ClickFrom.listProductButtonWithPosition(removerPosicion));
     }
 
     @Cuando("{actor} hace click en el boton de continuar comprando")
@@ -37,24 +34,18 @@ public class ListOfProductsSteps {
         actor.attemptsTo(Click.on(ProductListPage.CONTINUE_SHOPPING_BUTTON));
     }
 
-
     @Cuando("{actor} hace click en el boton de checkout")
     public void HaceClickEnElBotonDeCheckout(Actor actor) {
         actor.attemptsTo(Click.on(ProductListPage.CHECKOUT_BUTTON));
     }
     @Entonces("{actor} ve que la lista de compras contiene {int} articulo")
     public void veQueLaListaDeComprasContieneArticulos(Actor actor, int totalProducts) {
-        Ensure.that(ListedItems.numberOfProductListed(actor)).isEqualTo(totalProducts);
+            actor.attemptsTo(Ensure.thatAmongst(ALL_PRODUCTS_LISTED).hasSize(totalProducts));
     }
 
-    @Entonces("{actor} ve que la lista de compras esta vacia")
-    public void veQueLaListaDeComprasEstaVacia(Actor actor) {
-        Ensure.that(ListedItems.numberOfProductListed(actor)).isEqualTo(0);
-    }
-
-    @Entonces("ve que regresa al catalogo {string}")
-    public void veQueRegresaAlCatalogo(String term) {
-        Ensure.that(HeaderPage.HEADING_TEXT_TITLE).hasText(term);
+    @Entonces("{actor} ve que regresa al catalogo {string}")
+    public void veQueRegresaAlCatalogo(Actor actor, String term) {
+        actor.attemptsTo(Ensure.that(HEADING_TEXT_TITLE).text().contains(term));
     }
 
 

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sura.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="PSOFKA01134" time="0.0">
+  <properties/>
+  <system-out><![CDATA[12:30:48.398 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+12:30:48.576 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/autenticacion/login.feature
+12:30:48.683 [Test worker] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+12:30:48.692 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+12:30:48.695 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@49619786
+12:30:48.697 [Test worker] INFO  - Test Suite Started: Autenticación
+12:30:48.727 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/browse_items_in_catalogue/selecting_products.feature
+12:30:48.731 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f4a7cf1b
+12:30:48.732 [Test worker] INFO  - Test Suite Started: Adicionar/remover productos del catálogo a la lista de compras
+12:30:48.733 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/browse_items_in_catalogue/sorting_products.feature
+12:30:48.736 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@b32c13cc
+12:30:48.736 [Test worker] INFO  - Test Suite Started: Ordenar Productos de acuerdo a 4 opciones dadas
+12:30:48.737 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/checkout/check_out_products.feature
+12:30:48.740 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fe3844b1
+12:30:48.741 [Test worker] INFO  - Test Suite Started: Checkout Productos
+12:30:48.741 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/confirm_order/confirm_products.feature
+12:30:48.744 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@34af6627
+12:30:48.745 [Test worker] INFO  - Test Suite Started: Confirmar lista de productos seleccionados
+12:30:48.745 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/product_details/product_in_detail.feature
+12:30:48.749 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@dc9906
+12:30:48.750 [Test worker] INFO  - Test Suite Started: Vista detallada de un producto del catalogo
+12:30:48.753 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/autenticacion/login.feature
+12:30:48.755 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@49619786
+12:30:48.755 [Test worker] INFO  - Test Suite Started: Autenticación
+12:31:21.035 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/browse_items_in_catalogue/selecting_products.feature
+12:31:21.037 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f4a7cf1b
+12:31:21.038 [Test worker] INFO  - Test Suite Started: Adicionar/remover productos del catálogo a la lista de compras
+12:31:35.083 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/browse_items_in_catalogue/sorting_products.feature
+12:31:35.084 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@b32c13cc
+12:31:35.084 [Test worker] INFO  - Test Suite Started: Ordenar Productos de acuerdo a 4 opciones dadas
+12:31:49.439 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/checkout/check_out_products.feature
+12:31:49.442 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@fe3844b1
+12:31:49.442 [Test worker] INFO  - Test Suite Started: Checkout Productos
+12:31:55.017 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/confirm_order/confirm_products.feature
+12:31:55.018 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@34af6627
+12:31:55.018 [Test worker] INFO  - Test Suite Started: Confirmar lista de productos seleccionados
+12:32:06.401 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/juan.gomezv/IdeaProjects/sura/src/test/resources/features/product_details/product_in_detail.feature
+12:32:06.402 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@dc9906
+12:32:06.402 [Test worker] INFO  - Test Suite Started: Vista detallada de un producto del catalogo
+12:32:45.095 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+12:32:45.145 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+12:32:45.149 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 16 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960
+12:32:45.149 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta inválida
+12:32:45.149 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Autenticación:Usuario se auténtica con una cuenta inválida
+12:32:45.149 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta válida
+12:32:45.149 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Autenticación:Usuario se auténtica con una cuenta válida
+12:32:45.149 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario trata autenticarse con información incompleta
+12:32:45.149 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Autenticación:Usuario trata autenticarse con información incompleta
+12:32:45.149 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras
+12:32:45.149 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras
+12:32:45.149 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Quitar articulos al carrito de compras
+12:32:45.149 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Adicionar/remover productos del catálogo a la lista de compras:Quitar articulos al carrito de compras
+12:32:45.149 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras y pasar al lista de compras
+12:32:45.149 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras y pasar al lista de compras
+12:32:45.149 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la A a la Z
+12:32:45.149 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la A a la Z
+12:32:45.149 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la Z a la A
+12:32:45.149 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la Z a la A
+12:32:45.156 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Usuario se auténtica con una cuenta válida to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\f6cf66392637dd05a7a9e2a67eedeb891359b9e575c379fcf7cf2c7569895344.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\f6cf66392637dd05a7a9e2a67eedeb891359b9e575c379fcf7cf2c7569895344.json50943fc1-459f-4a02-b443-c44c26d9886d)
+12:32:45.156 [pool-1-thread-6] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Añadir articulos al carrito de compras y pasar al lista de compras to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\a8d5174165f73dc53da8c0727d8041875a5512909e62339604080f489a536fa6.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\a8d5174165f73dc53da8c0727d8041875a5512909e62339604080f489a536fa6.json9813a759-13b2-44fe-970e-cd048087113d)
+12:32:45.156 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Añadir articulos al carrito de compras to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\c4ea41b271b39bb960ab827d931df5cdc4f5fc27c49c9690afb18ee52b42627b.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\c4ea41b271b39bb960ab827d931df5cdc4f5fc27c49c9690afb18ee52b42627b.jsond5bc8591-976a-4c43-bade-0b235161a4c9)
+12:32:45.156 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Usuario se auténtica con una cuenta inválida to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\ed9f07025bf1951b58c33894420880ff333c16e3ebd677056c5102fdb20d6ee2.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\ed9f07025bf1951b58c33894420880ff333c16e3ebd677056c5102fdb20d6ee2.json80983bbd-439c-4eda-b6e6-c665302109c2)
+12:32:45.156 [pool-1-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Quitar articulos al carrito de compras to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\66c929c074f00d104fa1e0dc133d4fb9598097c7fa357140293d1e06d65f85fd.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\66c929c074f00d104fa1e0dc133d4fb9598097c7fa357140293d1e06d65f85fd.json047f3234-648f-44ea-b184-dfc983e599c5)
+12:32:45.156 [pool-1-thread-7] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Ordenar Productos Alfabeticamente de la A a la Z to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\60a25349fa7314cbcbf141cdb539a4d3f373a0eba93e96b7cab639bdc2182b14.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\60a25349fa7314cbcbf141cdb539a4d3f373a0eba93e96b7cab639bdc2182b14.json45af2d56-55b3-4964-ba82-eb9e138fecf7)
+12:32:45.156 [pool-1-thread-8] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Ordenar Productos Alfabeticamente de la Z a la A to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\6781715cf3cbabbb3021fec7efe4306cfde0a808f2fb6703d325cbadfdd97bf0.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\6781715cf3cbabbb3021fec7efe4306cfde0a808f2fb6703d325cbadfdd97bf0.json47ded2dd-2329-45ca-b4e7-a1877f25d79a)
+12:32:45.156 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Usuario trata autenticarse con información incompleta to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\93faba0c0d6dfc41d7d05a468910bbf5b99822062c998bb2efcd4a3d5677e676.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\93faba0c0d6dfc41d7d05a468910bbf5b99822062c998bb2efcd4a3d5677e676.json9d364802-d2b1-4932-9f87-d4954c6b319a)
+12:32:45.200 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras y pasar al lista de compras done
+12:32:45.200 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de menor a mayor valor
+12:32:45.200 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de menor a mayor valor
+12:32:45.206 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la Z a la A done
+12:32:45.207 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de mayor a menor
+12:32:45.207 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de mayor a menor
+12:32:45.207 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras done
+12:32:45.207 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Checkout Productos:Se ingresa correctamente la información personal
+12:32:45.207 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Checkout Productos:Se ingresa correctamente la información personal
+12:32:45.207 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la A a la Z done
+12:32:45.207 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Articulo es visible en lista de productos
+12:32:45.207 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta inválida done
+12:32:45.207 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir comprando productos
+12:32:45.207 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Confirmar lista de productos seleccionados:Seguir comprando productos
+12:32:45.207 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Confirmar lista de productos seleccionados:Articulo es visible en lista de productos
+12:32:45.208 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario trata autenticarse con información incompleta done
+12:32:45.208 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir hacia checkout
+12:32:45.208 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Confirmar lista de productos seleccionados:Seguir hacia checkout
+12:32:45.208 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Quitar articulos al carrito de compras done
+12:32:45.208 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio del titulo en el catalogo
+12:32:45.208 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio del titulo en el catalogo
+12:32:45.209 [pool-1-thread-6] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Ordenar Productos por costos de menor a mayor valor to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\b4c503e408a0c5ca04ee78fe1005bc38516a108e44e769c82940958a4cc189d9.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\b4c503e408a0c5ca04ee78fe1005bc38516a108e44e769c82940958a4cc189d9.json2c43db06-5475-45d1-a39e-9a42b7e5deb2)
+12:32:45.209 [pool-1-thread-8] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Ordenar Productos por costos de mayor a menor to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\5dcfd340346f91e4c3ec967deea93034021c3cb0591f3f46f41ddf4eb85883d2.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\5dcfd340346f91e4c3ec967deea93034021c3cb0591f3f46f41ddf4eb85883d2.jsond864eacc-3133-4b25-bc02-8752a9f0e052)
+12:32:45.209 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Se ingresa correctamente la información personal to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\6a4e076d4b170e43596679b5f565d223775568c0191b97c49b762cc98a342fb6.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\6a4e076d4b170e43596679b5f565d223775568c0191b97c49b762cc98a342fb6.json506b3891-78f3-43fe-8924-bc1fd370cdd4)
+12:32:45.210 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Seguir comprando productos to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\9366d05157345dcebe7ef49343b247565cb92c47e8e6eefc8458d3fb30f2603c.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\9366d05157345dcebe7ef49343b247565cb92c47e8e6eefc8458d3fb30f2603c.json8dbcc9af-95e0-4c4a-8afe-90f349077d41)
+12:32:45.210 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Seguir hacia checkout to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\6146bdcb6d2a0d8fadfd253ea6c850383c1ff48b7f88f5dd1ec1c7e647d746ba.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\6146bdcb6d2a0d8fadfd253ea6c850383c1ff48b7f88f5dd1ec1c7e647d746ba.json59e55a26-10b6-4241-a0ce-65eb05134a23)
+12:32:45.211 [pool-1-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Ir a los detalles del producto por medio del titulo en el catalogo to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\cecd84e15a69cdc0f703f919ef2f8eb7b34bb61916a49b2a8c2428949ca7e066.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\cecd84e15a69cdc0f703f919ef2f8eb7b34bb61916a49b2a8c2428949ca7e066.json0526a1f8-909c-4664-925a-06604dd33dd8)
+12:32:45.211 [pool-1-thread-7] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Articulo es visible en lista de productos to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\cbd47f16533a8448979f3452361b7915304c7449ff324073481f7a269ba8ec17.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\cbd47f16533a8448979f3452361b7915304c7449ff324073481f7a269ba8ec17.jsone7314cba-396c-47ad-8140-7802ff099627)
+12:32:45.215 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta válida done
+12:32:45.215 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio de la imágen en el catalogo
+12:32:45.215 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d6e9960: Generating report for test outcome: Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio de la imágen en el catalogo
+12:32:45.217 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de menor a mayor valor done
+12:32:45.218 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Ir a los detalles del producto por medio de la imágen en el catalogo to file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\902ae726f63a42ac3cc8361da21c9a98fc19ec4f3388135f812a1f353168a9fd.json (using temp file C:\Users\juan.gomezv\IdeaProjects\sura\target\site\serenity\902ae726f63a42ac3cc8361da21c9a98fc19ec4f3388135f812a1f353168a9fd.json770e3ed4-d8e7-40dc-8679-b0fa5a4a5102)
+12:32:45.218 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir comprando productos done
+12:32:45.221 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de mayor a menor done
+12:32:45.231 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio del titulo en el catalogo done
+12:32:45.231 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Checkout Productos:Se ingresa correctamente la información personal done
+12:32:45.231 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Articulo es visible en lista de productos done
+12:32:45.233 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio de la imágen en el catalogo done
+12:32:45.233 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir hacia checkout done
+12:32:45.233 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+12:32:45.233 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 84 ms
+12:32:45.233 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 16 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231
+12:32:45.234 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta inválida
+12:32:45.234 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Autenticación:Usuario se auténtica con una cuenta inválida
+12:32:45.234 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta válida
+12:32:45.234 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Autenticación:Usuario se auténtica con una cuenta válida
+12:32:45.234 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario trata autenticarse con información incompleta
+12:32:45.234 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Autenticación:Usuario trata autenticarse con información incompleta
+12:32:45.235 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la Z a la A
+12:32:45.235 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la Z a la A
+12:32:45.235 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras
+12:32:45.235 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras
+12:32:45.235 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la A a la Z
+12:32:45.235 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la A a la Z
+12:32:45.235 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras y pasar al lista de compras
+12:32:45.235 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras y pasar al lista de compras
+12:32:45.235 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Quitar articulos al carrito de compras
+12:32:45.235 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Adicionar/remover productos del catálogo a la lista de compras:Quitar articulos al carrito de compras
+12:32:45.342 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:63037 : 1
+12:32:45.343 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:60627 : 1
+12:32:45.344 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0xd4aafc45, L:/127.0.0.1:60626 ! R:localhost/127.0.0.1:63037] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+12:32:45.344 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0xd4aafc45, L:/127.0.0.1:60626 ! R:localhost/127.0.0.1:63037]
+12:32:45.345 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x75f48dfb, L:/127.0.0.1:60633 ! R:localhost/127.0.0.1:60627] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+12:32:45.347 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x75f48dfb, L:/127.0.0.1:60633 ! R:localhost/127.0.0.1:60627]
+12:32:45.348 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 2 connections out of 2 in 5 ms
+12:32:46.601 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la Z a la A done
+12:32:46.601 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de menor a mayor valor
+12:32:46.601 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de menor a mayor valor
+12:32:46.606 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras y pasar al lista de compras done
+12:32:46.606 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de mayor a menor
+12:32:46.606 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de mayor a menor
+12:32:47.138 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Quitar articulos al carrito de compras done
+12:32:47.138 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Checkout Productos:Se ingresa correctamente la información personal
+12:32:47.139 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Checkout Productos:Se ingresa correctamente la información personal
+12:32:47.234 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de mayor a menor done
+12:32:47.234 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Articulo es visible en lista de productos
+12:32:47.234 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Confirmar lista de productos seleccionados:Articulo es visible en lista de productos
+12:32:47.318 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Adicionar/remover productos del catálogo a la lista de compras:Añadir articulos al carrito de compras done
+12:32:47.318 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir comprando productos
+12:32:47.318 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Confirmar lista de productos seleccionados:Seguir comprando productos
+12:32:47.354 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos por costos de menor a mayor valor done
+12:32:47.355 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir hacia checkout
+12:32:47.355 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Confirmar lista de productos seleccionados:Seguir hacia checkout
+12:32:47.704 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Articulo es visible en lista de productos done
+12:32:47.704 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio del titulo en el catalogo
+12:32:47.704 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio del titulo en el catalogo
+12:32:47.730 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta inválida done
+12:32:47.730 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio de la imágen en el catalogo
+12:32:47.730 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2bcbc231: Generating report for test outcome: Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio de la imágen en el catalogo
+12:32:47.937 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir hacia checkout done
+12:32:47.951 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Confirmar lista de productos seleccionados:Seguir comprando productos done
+12:32:48.532 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Checkout Productos:Se ingresa correctamente la información personal done
+12:32:48.909 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario se auténtica con una cuenta válida done
+12:32:48.910 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Autenticación:Usuario trata autenticarse con información incompleta done
+12:32:49.676 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Ordenar Productos de acuerdo a 4 opciones dadas:Ordenar Productos Alfabeticamente de la A a la Z done
+12:32:54.872 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio del titulo en el catalogo done
+12:32:54.874 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Vista detallada de un producto del catalogo:Ir a los detalles del producto por medio de la imágen en el catalogo done
+12:32:54.874 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+12:32:54.874 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 9641 ms
+12:32:54.922 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:32:54.922 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+12:32:54.924 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:32:54.924 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+12:32:54.924 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:32:54.925 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+12:32:54.925 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:32:54.925 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+12:32:54.926 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:32:54.926 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+12:32:54.926 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+12:32:54.926 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+12:32:54.943 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+]]></system-err>
+</testsuite>

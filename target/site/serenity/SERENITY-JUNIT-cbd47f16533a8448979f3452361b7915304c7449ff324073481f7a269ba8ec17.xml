@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Confirmar lista de productos seleccionados" skipped="0" tests="3" time="10.92" timestamp="2022-09-29 12:31:55"><testcase name="Articulo es visible en lista de productos"/><testcase name="Seguir comprando productos"/><testcase name="Seguir hacia checkout"/></testsuite>

@@ -21,7 +21,7 @@ public class CheckOutPage {
             .locatedBy("data-test='cancel'");
 
     public static Target CONTINUE_BUTTON = Target
-            .the("cancel button")
+            .the("continue button")
             .locatedBy("[data-test='continue']");
 
 }

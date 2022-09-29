@@ -12,6 +12,7 @@ import sura.tasks.CheckOutOrder;
 import sura.ui.HeaderPage;
 
 import static sura.ui.CheckOutPage.CONTINUE_BUTTON;
+import static sura.ui.HeaderPage.HEADING_TEXT_TITLE;
 
 public class CheckOutSteps {
 
@@ -23,8 +24,8 @@ public class CheckOutSteps {
     public void clickEnCheckOut(Actor actor) {
         actor.attemptsTo(Click.on(CONTINUE_BUTTON));
     }
-    @Entonces("es redirigida a la pagina de {string}")
-    public void paginaDeOverview(String term) {
-        Ensure.that(HeaderPage.HEADING_TEXT_TITLE).hasText(term);
+    @Entonces("{actor} es redirigida a la pagina de {string}")
+    public void paginaDeOverview(Actor actor, String term) {
+        actor.attemptsTo(Ensure.that(HEADING_TEXT_TITLE).text().contains(term));
     }
 }

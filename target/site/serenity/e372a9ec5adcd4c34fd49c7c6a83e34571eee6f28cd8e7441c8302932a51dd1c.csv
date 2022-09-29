@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Adicionar/remover productos del catálogo a la lista de compras","Añadir articulos al carrito de compras","SUCCESS","2022-09-29T12:31:21.0458694-05:00[America/Mexico_City]","0.0","5.04"
+"Adicionar/remover productos del catálogo a la lista de compras","Quitar articulos al carrito de compras","SUCCESS","2022-09-29T12:31:26.343848-05:00[America/Mexico_City]","0.0","4.97"
+"Adicionar/remover productos del catálogo a la lista de compras","Añadir articulos al carrito de compras y pasar al lista de compras","SUCCESS","2022-09-29T12:31:31.4773476-05:00[America/Mexico_City]","0.0","3.47"
+"Ordenar Productos de acuerdo a 4 opciones dadas","Ordenar Productos Alfabeticamente de la A a la Z","SUCCESS","2022-09-29T12:31:35.0891632-05:00[America/Mexico_City]","0.0","3.37"
+"Ordenar Productos de acuerdo a 4 opciones dadas","Ordenar Productos Alfabeticamente de la Z a la A","SUCCESS","2022-09-29T12:31:38.6405078-05:00[America/Mexico_City]","0.0","3.54"
+"Ordenar Productos de acuerdo a 4 opciones dadas","Ordenar Productos por costos de menor a mayor valor","SUCCESS","2022-09-29T12:31:42.3599452-05:00[America/Mexico_City]","0.0","3.29"
+"Ordenar Productos de acuerdo a 4 opciones dadas","Ordenar Productos por costos de mayor a menor","SUCCESS","2022-09-29T12:31:45.8467918-05:00[America/Mexico_City]","0.0","3.41"

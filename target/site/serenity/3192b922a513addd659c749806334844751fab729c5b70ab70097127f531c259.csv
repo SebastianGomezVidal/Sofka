@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Adicionar/remover productos del catálogo a la lista de compras","Añadir articulos al carrito de compras","SUCCESS","2022-09-29T12:31:21.0458694-05:00[America/Mexico_City]","0.0","5.04"
+"Adicionar/remover productos del catálogo a la lista de compras","Quitar articulos al carrito de compras","SUCCESS","2022-09-29T12:31:26.343848-05:00[America/Mexico_City]","0.0","4.97"
+"Adicionar/remover productos del catálogo a la lista de compras","Añadir articulos al carrito de compras y pasar al lista de compras","SUCCESS","2022-09-29T12:31:31.4773476-05:00[America/Mexico_City]","0.0","3.47"
